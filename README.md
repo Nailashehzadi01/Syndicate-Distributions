@@ -1,14 +1,17 @@
-**Syndicate Balancing Algorithm**
+****Syndicate Balancing Algorithm****
+
 **Overview**
+
 The Syndicate Balancing Algorithm is a Python-based solution designed to distribute students into k groups while maintaining an equitable distribution of students, professions, and average scores. This algorithm addresses the challenge of creating balanced groups based on three key criteria:
 
 Equal Group Sizes: Each group should contain a similar number of students. When the total number of students cannot be evenly divided by k, groups may differ by at most one student.
 
-Profession Distribution: Professions among students should be as evenly distributed as possible across all groups. If the total number of students with a specific profession exceeds the number of groups, the algorithm will allow slight variations in distribution.
+**Profession Distribution: **
+Professions among students should be as evenly distributed as possible across all groups. If the total number of students with a specific profession exceeds the number of groups, the algorithm will allow slight variations in distribution.
 
 Minimized Standard Deviation of Average Scores: The algorithm aims to minimize the standard deviation of average scores across the groups, ensuring that group performance is closely aligned.
 
-Features
+**Features**
 CSV Data Handling: Loads student data from a CSV file into a Pandas DataFrame.
 Sorting Mechanism: Students are sorted based on profession and score to facilitate fair distribution.
 Round-Robin Distribution: Implements a round-robin method for distributing students into groups by profession.
