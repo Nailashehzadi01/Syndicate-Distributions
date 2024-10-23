@@ -1,0 +1,21 @@
+,userId,Score,Profession,group
+0,12,100,Artist,Group 0
+1,14,97,Doctor,Group 0
+2,18,100,Engineer,Group 2
+3,16,95,Scientist,Group 2
+4,7,50,Teacher,Group 0
+5,10,50,Artist,Group 1
+6,13,3,Doctor,Group 1
+7,17,4,Engineer,Group 1
+8,15,1,Scientist,Group 3
+9,8,50,Teacher,Group 3
+10,11,3,Artist,Group 2
+11,1,1,Doctor,Group 2
+12,4,2,Engineer,Group 0
+13,6,1,Scientist,Group 0
+14,9,50,Teacher,Group 2
+15,2,99,Doctor,Group 3
+16,3,100,Engineer,Group 3
+17,5,100,Scientist,Group 1
+18,19,98,Teacher,Group 1
+19,20,2,Teacher,Group 3
